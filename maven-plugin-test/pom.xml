@@ -58,7 +58,11 @@
                         <phase>validate</phase>
                         <goals>
                             <goal>myPlugin</goal>
+                            <goal>annoationPlugin</goal>
                         </goals>
+                        <configuration>
+                        <filePath>src/main/resources/application.properties</filePath>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
